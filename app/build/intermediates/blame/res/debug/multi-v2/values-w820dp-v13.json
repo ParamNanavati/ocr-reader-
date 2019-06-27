@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\IEP Project\\ocr-reader-complete\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\IEP Project\\ocr-reader-complete\\app\\src\\main\\res\\values-w820dp\\arrays.xml",
+                    "from": {
+                        "startLines": "87,25,35,79,17,95",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "5060,956,1517,4679,692,5345",
+                        "endLines": "94,34,78,86,24,102",
+                        "endColumns": "12,19,19,19,19,12",
+                        "endOffsets": "5340,1512,4674,5055,951,5585"
+                    },
+                    "to": {
+                        "startLines": "2,10,20,64,72,80",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,340,901,4063,4444,4708",
+                        "endLines": "9,19,63,71,79,87",
+                        "endColumns": "12,19,19,19,19,12",
+                        "endOffsets": "335,896,4058,4439,4703,4948"
+                    }
+                },
+                {
+                    "source": "D:\\IEP Project\\ocr-reader-complete\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "17,18,23,24,30,27,25,19,31,26,29,28,32,20,33,22,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "721,779,1009,1056,1343,1196,1104,835,1393,1147,1292,1242,1443,879,1484,965,922",
+                        "endColumns": "57,55,46,47,49,45,42,43,49,48,50,49,40,42,48,43,42",
+                        "endOffsets": "774,830,1051,1099,1388,1237,1142,874,1438,1191,1338,1287,1479,917,1528,1004,960"
+                    },
+                    "to": {
+                        "startLines": "92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5129,5187,5243,5290,5338,5388,5434,5477,5521,5571,5620,5671,5721,5762,5805,5854,5898",
+                        "endColumns": "57,55,46,47,49,45,42,43,49,48,50,49,40,42,48,43,42",
+                        "endOffsets": "5182,5238,5285,5333,5383,5429,5472,5516,5566,5615,5666,5716,5757,5800,5849,5893,5936"
+                    }
+                },
+                {
+                    "source": "D:\\IEP Project\\ocr-reader-complete\\app\\src\\main\\res\\values-w820dp\\colors.xml",
+                    "from": {
+                        "startLines": "20,18,19,17",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "798,708,752,668",
+                        "endColumns": "45,43,45,39",
+                        "endOffsets": "839,747,793,703"
+                    },
+                    "to": {
+                        "startLines": "88,89,90,91",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4953,4999,5043,5089",
+                        "endColumns": "45,43,45,39",
+                        "endOffsets": "4994,5038,5084,5124"
+                    }
+                }
+            ]
+        }
+    ]
+}

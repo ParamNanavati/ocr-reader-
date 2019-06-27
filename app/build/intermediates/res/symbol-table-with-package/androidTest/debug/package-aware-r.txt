@@ -1,0 +1,2 @@
+com.google.android.gms.samples.vision.ocrreader.test
+int string app_name 0x7f010000

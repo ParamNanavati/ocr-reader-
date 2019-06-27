@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/cam"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    app:fabSize="normal"
+    android:backgroundTint="#232323"
+    app:borderWidth="0dp"
+    android:elevation="5dp"
+    android:src="@drawable/mic"
+    />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardBackgroundColor="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/card_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/news"
+        android:scaleType="centerCrop"
+        />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Latest News"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_alignBottom="@+id/card_image"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            tools:text="It contain Detail anaysis of latest news which..."
+            android:textColor="#424242"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/test"
+            android:text="ACTION"
+            android:textColor="#023aff"
+            android:background="#ffffff"
+            />
+        <ImageButton
+            android:id="@+id/share_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            app:srcCompat="@drawable/ic_share"
+            android:layout_below="@+id/test"
+            android:layout_alignParentRight="true"
+            android:background="#ffffff"
+            android:tint="#757575" />
+
+        <ImageButton
+            android:id="@+id/favorite_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="16dp"
+            app:srcCompat="@drawable/ic_favorite"
+            android:layout_below="@+id/test"
+            android:background="#ffffff"
+            android:layout_toLeftOf="@id/share_button"
+            android:tint="#757575" />
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c2"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardBackgroundColor="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/card_image1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bbc"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="BBC NEWS"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_alignBottom="@+id/card_image1"
+                android:layout_marginLeft="16dp"
+                />
+            <TextView
+                android:id="@+id/test1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_image1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                tools:text="BBC news report on leatest news"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#424242"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/test1"
+                android:text="ACTION"
+                android:textColor="#023aff"
+                android:background="#ffffff"
+                />
+            <ImageButton
+                android:id="@+id/share_button1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_share"
+                android:layout_below="@+id/test1"
+                android:layout_alignParentRight="true"
+                android:background="#ffffff"
+                android:tint="#757575" />
+
+            <ImageButton
+                android:id="@+id/favorite_button1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_favorite"
+                android:layout_below="@+id/test1"
+                android:background="#ffffff"
+                android:layout_toLeftOf="@id/share_button1"
+                android:tint="#757575" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c3"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardBackgroundColor="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/card_image3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/tech"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Tech news"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_alignBottom="@+id/card_image3"
+                android:layout_marginLeft="16dp"
+                />
+            <TextView
+                android:id="@+id/test3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_image3"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                tools:text="All the leatest technology for the special person..."
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#424242"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/test3"
+                android:text="ACTION"
+                android:textColor="#023aff"
+                android:background="#ffffff"
+                />
+            <ImageButton
+                android:id="@+id/share_button3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_share"
+                android:layout_below="@+id/test3"
+                android:layout_alignParentRight="true"
+                android:background="#ffffff"
+                android:tint="#757575" />
+
+            <ImageButton
+                android:id="@+id/favorite_button3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_favorite"
+                android:layout_below="@+id/test3"
+                android:background="#ffffff"
+                android:layout_toLeftOf="@id/share_button3"
+                android:tint="#757575" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c4"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardBackgroundColor="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/card_image4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/glob"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="International"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_alignBottom="@+id/card_image4"
+                android:layout_marginLeft="16dp"
+                />
+            <TextView
+                android:id="@+id/test4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_image4"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                tools:text="It contains detail about inventions at international level..."
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#424242"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/test4"
+                android:text="ACTION"
+                android:textColor="#023aff"
+                android:background="#ffffff"
+                />
+            <ImageButton
+                android:id="@+id/share_button4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_share"
+                android:layout_below="@+id/test4"
+                android:layout_alignParentRight="true"
+                android:background="#ffffff"
+                android:tint="#757575" />
+
+            <ImageButton
+                android:id="@+id/favorite_button4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_favorite"
+                android:layout_below="@+id/test4"
+                android:background="#ffffff"
+                android:layout_toLeftOf="@id/share_button4"
+                android:tint="#757575" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/c5"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardBackgroundColor="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/card_image2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/toi"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="THE TIMES OF INDIA"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_alignBottom="@+id/card_image2"
+                android:layout_marginLeft="16dp"
+                />
+            <TextView
+                android:id="@+id/test2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_image2"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                tools:text="News analysis by TOI and leatest tech update"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#424242"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/test2"
+                android:text="ACTION"
+                android:textColor="#023aff"
+                android:background="#ffffff"
+                />
+            <ImageButton
+                android:id="@+id/share_button2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_share"
+                android:layout_below="@+id/test2"
+                android:layout_alignParentRight="true"
+                android:background="#ffffff"
+                android:tint="#757575" />
+
+            <ImageButton
+                android:id="@+id/favorite_button2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="16dp"
+                app:srcCompat="@drawable/ic_favorite"
+                android:layout_below="@+id/test2"
+                android:background="#ffffff"
+                android:layout_toLeftOf="@id/share_button2"
+                android:tint="#757575" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>
+</android.support.design.widget.CoordinatorLayout>

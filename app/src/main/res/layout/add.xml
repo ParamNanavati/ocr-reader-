@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/hos"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hospital" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:alpha="0.3"
+                    android:background="#424242" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="158dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Near By Hospital"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="103dp"
+                    tools:layout_editor_absoluteY="1dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+        <ImageView
+            android:id="@+id/school"
+            android:layout_width="match_parent"
+            android:layout_height="160sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/school" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160sp"
+            android:alpha="0.3"
+            android:background="#424242" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Near By School"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="1dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            >
+
+                <ImageView
+                    android:id="@+id/col"
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/college" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160sp"
+                    android:alpha="0.3"
+                    android:background="#424242" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="158dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Near By College"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="103dp"
+                    tools:layout_editor_absoluteY="1dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/res"
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/restorant" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:alpha="0.3"
+                android:background="#424242" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Near By Restaurant"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteY="1dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/pol"
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/police" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:alpha="0.3"
+                android:background="#424242" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Near By Police station"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteY="1dp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/par"
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:alpha="0.3"
+                android:background="#424242" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Near By Park"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteY="1dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
